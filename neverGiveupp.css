@@ -1,0 +1,110 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fdf6f0;
+    }
+
+nav{
+	background-color:gray ;
+	height: 50px;
+	width: 890px;
+	padding: 10px 10px 10px 10px;
+	justify-content: space-between;
+	align-items: center;
+	float: left;
+}
+
+nav a:link{
+	list-style: none;
+      display: flex;
+      gap: 30px;
+      text-decoration: none;
+      	float: left;
+}
+
+nav a p{
+	color: white;
+	font-size: 28px;
+}
+
+ ul{
+	list-style: none;
+	display: flex;
+	gap:30px;
+	background-color: gray;
+	height: 50px;
+	color: white;
+	font-size: 20px;
+}
+
+ul li{
+	padding: 10px 10px 10px 10px;
+}
+ ul li a:link{ 
+ 	color: white;
+	text-decoration: none;
+	font-family:Aharoni;
+}
+
+ img{
+	float: right;
+	padding: 30px 15px 0px 20px;
+}
+
+.a p{
+	font-size: 22px;
+	text-align: center;
+	padding: 50px 150px 20px 30px ;
+}
+
+.b p {
+	font-size: 24px;
+	text-align: center;
+	padding: 0px 100px 10px 100px;
+}
+
+.reason h1{
+	text-align: center;
+	padding: 0px 100px 10px 100px;
+}
+
+.reason ol li{
+	text-align: center;
+	padding: 0px 50px 10px 50px;
+}
+
+h1{
+	
+	padding: 50px 0px 10px 150px;
+}
+
+
+.overflow{
+	width: 780px;
+	height: 390px;
+	border: 2px solid black;
+	text-align: center;
+	margin: 20px 250px 40px 250px;
+	overflow: scroll;
+}
+
+.button{ 
+	text-align: center;
+ }
+
+ .button a{
+ 	text-decoration: none;
+ 	font-size: 30px;
+ }
+
+.c form{
+	font-size: 20px;
+	text-align: revert-layer ;
+	padding-left:170px ;
+}
+
